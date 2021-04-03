@@ -4,7 +4,7 @@
 
 # About
 
-Template / Cookie cutter for my Kotlin / Gradle projects.
+Template (i.e. cookie cutter project) for my Kotlin / Gradle projects.
 
 # How To
 
@@ -14,7 +14,7 @@ Template / Cookie cutter for my Kotlin / Gradle projects.
 ./gradlew clean build
 ```
 
-## Update dependencies:
+## Update dependencies
 
 ```
  ./gradlew dependencyUpdates --refresh-dependencies
