@@ -29,7 +29,3 @@ hs_err_pid*
 */build
 /out
 /.idea/
-*.db
-*.so
-*.dll
-
