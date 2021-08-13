@@ -17,14 +17,16 @@ fun main() {
     File("img").mkdir()
 
     val charSetName = "UTF-8"
-    val size = 500
-    val limit = 997
+    val imageSize = 490
     val readMeLines = mutableListOf<String>()
     val textLengths = mutableListOf<Int>()
+
+    // https://www.qrcode.com/en/about/version.html
     val hints = mutableMapOf<EncodeHintType, Any>()
-    hints[EncodeHintType.ERROR_CORRECTION] = ErrorCorrectionLevel.M
-    hints[EncodeHintType.QR_VERSION] = Version.getVersionForNumber(25)!!
+    hints[EncodeHintType.ERROR_CORRECTION] = ErrorCorrectionLevel.L
+    hints[EncodeHintType.QR_VERSION] = Version.getVersionForNumber(22)!!
     hints[EncodeHintType.MARGIN] = 1
+    val limit = 1003
 
     (1..134)
             .forEach { i ->
@@ -41,9 +43,9 @@ fun main() {
                     val textAndTitle = title + "\n\n" + text
                     textLengths += text.length
 
-                    if (textAndTitle.length < limit) {
+                    if (textAndTitle.length <= limit) {
                         val imagePath = "img/qr$i.png"
-                        val matrix = MultiFormatWriter().encode(textAndTitle, QR_CODE, size, size, hints)
+                        val matrix = MultiFormatWriter().encode(textAndTitle, QR_CODE, imageSize, imageSize, hints)
                         MatrixToImageWriter.writeToPath(matrix, "png", Path.of(imagePath))
 
                         readMeLines += "### $title"

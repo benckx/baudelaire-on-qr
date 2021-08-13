@@ -152,6 +152,8 @@ Encode a well-known book as a series of QR codes. Just a silly demo project.
 ![](img/qr119.png)
 ### L’Amour et le crâne
 ![](img/qr122.png)
+### Abel et Caïn
+![](img/qr125.png)
 ### Prière
 ![](img/qr127.png)
 ### La Mort des amants
