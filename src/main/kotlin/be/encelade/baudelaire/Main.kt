@@ -17,7 +17,7 @@ fun main() {
     File("img").mkdir()
 
     val charSetName = "UTF-8"
-    val imageSize = 490
+    val imageSize = 430
     val readMeLines = mutableListOf<String>()
     val textLengths = mutableListOf<Int>()
 
