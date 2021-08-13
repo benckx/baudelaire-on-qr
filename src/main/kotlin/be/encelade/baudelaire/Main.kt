@@ -17,13 +17,13 @@ fun main() {
     File("img").mkdir()
 
     val charSetName = "UTF-8"
-    val size = 500
-    val limit = 1370
+    val size = 550
+    val limit = 1264
     val readMeLines = mutableListOf<String>()
     val textLengths = mutableListOf<Int>()
     val hints = mutableMapOf<EncodeHintType, Any>()
     hints[EncodeHintType.ERROR_CORRECTION] = ErrorCorrectionLevel.M
-    hints[EncodeHintType.QR_VERSION] = Version.getVersionForNumber(30)!!
+    hints[EncodeHintType.QR_VERSION] = Version.getVersionForNumber(29)!!
     hints[EncodeHintType.MARGIN] = 1
 //    hints[EncodeHintType.CHARACTER_SET] = charSetName
 

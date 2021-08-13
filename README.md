@@ -38,8 +38,6 @@ Encode a well-known book as a series of QR codes. Just a silly demo project.
 ![](img/qr20.png)
 ### La Géante
 ![](img/qr21.png)
-### Hymne à la beauté
-![](img/qr23.png)
 ### Parfum exotique
 ![](img/qr24.png)
 ### Je t’adore à l’égal de la voûte nocturne
@@ -82,20 +80,14 @@ Encode a well-known book as a series of QR codes. Just a silly demo project.
 ![](img/qr48.png)
 ### Harmonie du soir
 ![](img/qr49.png)
-### Le Flacon
-![](img/qr50.png)
 ### Le Poison
 ![](img/qr51.png)
 ### Ciel brouillé
 ![](img/qr52.png)
-### Le chat
-![](img/qr53.png)
 ### L’Invitation au voyage
 ![](img/qr55.png)
 ### Causerie
 ![](img/qr57.png)
-### Chant d’automne
-![](img/qr58.png)
 ### Chanson d’après-midi
 ![](img/qr60.png)
 ### Sisina
@@ -146,8 +138,6 @@ Encode a well-known book as a series of QR codes. Just a silly demo project.
 ![](img/qr84.png)
 ### L’Héautontimorouménos
 ![](img/qr85.png)
-### L’Irrémédiable
-![](img/qr86.png)
 ### L’Horloge
 ![](img/qr87.png)
 ### Paysage
