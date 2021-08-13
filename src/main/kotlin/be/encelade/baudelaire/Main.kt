@@ -29,7 +29,7 @@ fun main() {
                         val imagePath = "img/qr$i.png"
                         MatrixToImageWriter.writeToPath(matrix, "png", Path.of(imagePath))
 
-                        readMeLines += "## $title"
+                        readMeLines += "### $title"
                         readMeLines += "![]($imagePath)"
                     }
                 }
