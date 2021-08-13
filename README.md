@@ -30,8 +30,6 @@ Encode a well-known book as a series of QR codes. Just a silly demo project.
 ![](img/qr16.png)
 ### Don Juan aux enfers
 ![](img/qr17.png)
-### Châtiment de l’orgueil
-![](img/qr18.png)
 ### La Beauté
 ![](img/qr19.png)
 ### L’Idéal
@@ -74,8 +72,6 @@ Encode a well-known book as a series of QR codes. Just a silly demo project.
 ![](img/qr44.png)
 ### Le Flambeau vivant
 ![](img/qr45.png)
-### Réversibilité
-![](img/qr46.png)
 ### L’Aube spirituelle
 ![](img/qr48.png)
 ### Harmonie du soir
@@ -84,12 +80,8 @@ Encode a well-known book as a series of QR codes. Just a silly demo project.
 ![](img/qr51.png)
 ### Ciel brouillé
 ![](img/qr52.png)
-### L’Invitation au voyage
-![](img/qr55.png)
 ### Causerie
 ![](img/qr57.png)
-### Chanson d’après-midi
-![](img/qr60.png)
 ### Sisina
 ![](img/qr61.png)
 ### Franciscae meae laudes
@@ -122,8 +114,6 @@ Encode a well-known book as a series of QR codes. Just a silly demo project.
 ![](img/qr76.png)
 ### Spleen (1)
 ![](img/qr77.png)
-### Spleen (2)
-![](img/qr78.png)
 ### Spleen (3)
 ![](img/qr79.png)
 ### Spleen (4)
@@ -138,30 +128,16 @@ Encode a well-known book as a series of QR codes. Just a silly demo project.
 ![](img/qr84.png)
 ### L’Héautontimorouménos
 ![](img/qr85.png)
-### L’Horloge
-![](img/qr87.png)
-### Paysage
-![](img/qr89.png)
 ### Le Soleil
 ![](img/qr90.png)
 ### Les Aveugles
 ![](img/qr95.png)
 ### À une passante
 ![](img/qr96.png)
-### Le Squelette laboureur
-![](img/qr97.png)
-### Le Jeu
-![](img/qr99.png)
-### L’Amour du mensonge
-![](img/qr101.png)
 ### Je n’ai pas oublié
 ![](img/qr102.png)
-### La Servante au grand cœur
-![](img/qr103.png)
 ### Brumes et pluies
 ![](img/qr104.png)
-### L’Âme du vin
-![](img/qr108.png)
 ### Le Vin du solitaire
 ![](img/qr111.png)
 ### Le Vin des amants
@@ -176,8 +152,6 @@ Encode a well-known book as a series of QR codes. Just a silly demo project.
 ![](img/qr119.png)
 ### L’Amour et le crâne
 ![](img/qr122.png)
-### Abel et Caïn
-![](img/qr125.png)
 ### Prière
 ![](img/qr127.png)
 ### La Mort des amants
