@@ -11,19 +11,24 @@ import java.nio.file.Path
 
 fun main() {
     val charSetName = "UTF-8"
-    val qrSize = 450
+    val qrSize = 400
     val limit = 900
     val readMeLines = mutableListOf<String>()
 
     (1..134)
             .forEach { i ->
-                val file = File(getResourceAsURL("/texts/main$i.xml").toURI())
+                val file = getResourceAsFile("/texts/main$i.xml")
                 val body = Jsoup.parse(file, charSetName, "http://example.com/").body()
                 val titles = body.getElementsByTag("h3")
-                val text = body.getElementsByTag("p").joinToString("\n") { p -> p.text() }
                 if (titles.isNotEmpty()) {
+                    val text = body
+                            .getElementsByTag("p")
+                            .joinToString("\n") { p -> p.text() }
+                            .replace("œ", "oe")
+
                     val title = titles.first()!!.text()
                     val textAndTitle = title + "\n\n" + text
+
                     if (textAndTitle.length <= limit) {
                         val matrix = MultiFormatWriter().encode(textAndTitle, QR_CODE, qrSize, qrSize)
                         val imagePath = "img/qr$i.png"
@@ -37,7 +42,14 @@ fun main() {
 
     val readMeFile = File("README.md")
     readMeFile.delete()
-    FileUtils.writeStringToFile(readMeFile, readMeLines.joinToString("\n"), charSetName)
+
+    val header = FileUtils.readFileToString(getResourceAsFile("/header.md"), charSetName)
+    val content = header + readMeLines.joinToString("\n")
+    FileUtils.writeStringToFile(readMeFile, content, charSetName)
+}
+
+private fun getResourceAsFile(path: String): File {
+    return File(getResourceAsURL(path).toURI())
 }
 
 private fun getResourceAsURL(path: String): URL {
