@@ -6,7 +6,7 @@
 
 Encode a well-known book as a series of QR codes. Just a silly demo project.
 
-### L’Albatros
+### L'Albatros
 ![](img/qr4.png)
 ### Élévation
 ![](img/qr5.png)
@@ -18,7 +18,7 @@ Encode a well-known book as a series of QR codes. Just a silly demo project.
 ![](img/qr10.png)
 ### Le Mauvais Moine
 ![](img/qr11.png)
-### L’Ennemi
+### L'Ennemi
 ![](img/qr12.png)
 ### Le Guignon
 ![](img/qr13.png)
@@ -26,21 +26,21 @@ Encode a well-known book as a series of QR codes. Just a silly demo project.
 ![](img/qr14.png)
 ### Bohémiens en voyage
 ![](img/qr15.png)
-### L’Homme et la mer
+### L'Homme et la mer
 ![](img/qr16.png)
 ### Don Juan aux enfers
 ![](img/qr17.png)
 ### La Beauté
 ![](img/qr19.png)
-### L’Idéal
+### L'Idéal
 ![](img/qr20.png)
 ### La Géante
 ![](img/qr21.png)
 ### Parfum exotique
 ![](img/qr24.png)
-### Je t’adore à l’égal de la voûte nocturne
+### Je t'adore à l'égal de la voûte nocturne
 ![](img/qr26.png)
-### Tu mettrais l’univers entier dans ta ruelle
+### Tu mettrais l'univers entier dans ta ruelle
 ![](img/qr27.png)
 ### Sed non satiata
 ![](img/qr28.png)
@@ -52,7 +52,7 @@ Encode a well-known book as a series of QR codes. Just a silly demo project.
 ![](img/qr32.png)
 ### Le Vampire
 ![](img/qr33.png)
-### Une nuit que j’étais près d’une affreuse Juive
+### Une nuit que j'étais près d'une affreuse Juive
 ![](img/qr34.png)
 ### Remords posthume
 ![](img/qr35.png)
@@ -72,7 +72,7 @@ Encode a well-known book as a series of QR codes. Just a silly demo project.
 ![](img/qr44.png)
 ### Le Flambeau vivant
 ![](img/qr45.png)
-### L’Aube spirituelle
+### L'Aube spirituelle
 ![](img/qr48.png)
 ### Harmonie du soir
 ![](img/qr49.png)
@@ -90,7 +90,7 @@ Encode a well-known book as a series of QR codes. Just a silly demo project.
 ![](img/qr63.png)
 ### Le Revenant
 ![](img/qr65.png)
-### Sonnet d’automne
+### Sonnet d'automne
 ![](img/qr66.png)
 ### Tristesses de la lune
 ![](img/qr67.png)
@@ -126,7 +126,7 @@ Encode a well-known book as a series of QR codes. Just a silly demo project.
 ![](img/qr83.png)
 ### Horreur sympathique
 ![](img/qr84.png)
-### L’Héautontimorouménos
+### L'Héautontimorouménos
 ![](img/qr85.png)
 ### Le Soleil
 ![](img/qr90.png)
@@ -134,7 +134,7 @@ Encode a well-known book as a series of QR codes. Just a silly demo project.
 ![](img/qr95.png)
 ### À une passante
 ![](img/qr96.png)
-### Je n’ai pas oublié
+### Je n'ai pas oublié
 ![](img/qr102.png)
 ### Brumes et pluies
 ![](img/qr104.png)
@@ -144,13 +144,13 @@ Encode a well-known book as a series of QR codes. Just a silly demo project.
 ![](img/qr112.png)
 ### La Destruction
 ![](img/qr114.png)
-### Les Deux Bonnes Sœurs
+### Les Deux Bonnes Soeurs
 ![](img/qr117.png)
 ### La Fontaine de sang
 ![](img/qr118.png)
 ### Allégorie
 ![](img/qr119.png)
-### L’Amour et le crâne
+### L'Amour et le crâne
 ![](img/qr122.png)
 ### Abel et Caïn
 ![](img/qr125.png)
@@ -164,5 +164,5 @@ Encode a well-known book as a series of QR codes. Just a silly demo project.
 ![](img/qr131.png)
 ### La Fin de la journée
 ![](img/qr132.png)
-### Le Rêve d’un curieux
+### Le Rêve d'un curieux
 ![](img/qr133.png)

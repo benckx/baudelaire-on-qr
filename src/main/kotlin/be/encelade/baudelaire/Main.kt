@@ -37,9 +37,9 @@ fun main() {
                     val text = body
                             .getElementsByTag("p")
                             .joinToString("\n") { p -> p.text() }
-                            .replace("œ", "oe")
+                            .sanitize()
 
-                    val title = titles.first()!!.text()
+                    val title = titles.first()!!.text().sanitize()
                     val textAndTitle = title + "\n\n" + text
                     textLengths += text.length
 
@@ -62,6 +62,12 @@ fun main() {
     FileUtils.writeStringToFile(readMeFile, content, charSetName)
 
     println("text length (min/avg/max): ${textLengths.minOrNull()} / ${textLengths.average().toInt()} / ${textLengths.maxOrNull()}")
+}
+
+private fun String.sanitize(): String {
+    return this
+            .replace("œ", "oe")
+            .replace("’", "'")
 }
 
 private fun getResourceAsFile(path: String): File {
