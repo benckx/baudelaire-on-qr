@@ -6,8 +6,6 @@
 
 Encode a well-known book as a series of QR codes. Just a silly demo project.
 
-# Texts
-
 ### L’Albatros
 ![](img/qr4.png)
 ### Correspondances
