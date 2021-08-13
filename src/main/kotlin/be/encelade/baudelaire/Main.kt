@@ -3,6 +3,7 @@ package be.encelade.baudelaire
 import com.google.zxing.BarcodeFormat.QR_CODE
 import com.google.zxing.MultiFormatWriter
 import com.google.zxing.client.j2se.MatrixToImageWriter
+import org.apache.commons.io.FileUtils
 import org.jsoup.Jsoup
 import java.io.File
 import java.net.URL
@@ -12,6 +13,7 @@ fun main() {
     val charSetName = "UTF-8"
     val qrSize = 450
     val limit = 900
+    val readMeLines = mutableListOf<String>()
 
     (1..134)
             .forEach { i ->
@@ -24,10 +26,18 @@ fun main() {
                     val textAndTitle = title + "\n\n" + text
                     if (textAndTitle.length <= limit) {
                         val matrix = MultiFormatWriter().encode(textAndTitle, QR_CODE, qrSize, qrSize)
-                        MatrixToImageWriter.writeToPath(matrix, "png", Path.of("img/qr$i.png"))
+                        val imagePath = "img/qr$i.png"
+                        MatrixToImageWriter.writeToPath(matrix, "png", Path.of(imagePath))
+
+                        readMeLines += "## $title"
+                        readMeLines += "![]($imagePath)"
                     }
                 }
             }
+
+    val readMeFile = File("README.md")
+    readMeFile.delete()
+    FileUtils.writeStringToFile(readMeFile, readMeLines.joinToString("\n"), charSetName)
 }
 
 private fun getResourceAsURL(path: String): URL {
