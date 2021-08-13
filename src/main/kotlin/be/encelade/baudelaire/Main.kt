@@ -49,7 +49,6 @@ fun main() {
 
                         readMeLines += "### $title"
                         readMeLines += "![]($imagePath)"
-//                        readMeLines += "<img src=\"/${imagePath}\" width=\"550\" height=\"550\" />"
                     }
                 }
             }
