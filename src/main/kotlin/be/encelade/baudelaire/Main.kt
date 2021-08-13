@@ -47,8 +47,10 @@ fun main() {
                         val matrix = MultiFormatWriter().encode(textAndTitle, QR_CODE, size, size, hints)
                         MatrixToImageWriter.writeToPath(matrix, "png", Path.of(imagePath))
 
+                        ///![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png =250x250)
+
                         readMeLines += "### $title"
-                        readMeLines += "![]($imagePath)"
+                        readMeLines += "![]($imagePath =${size}x$size)"
                     }
                 }
             }
